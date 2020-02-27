@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="question_page.css">
+    <title>Question</title>
+</head>
+
+<body>
+    <div class="container">
+        <label for="subjects">Subject:</label>
+        <select id="subjects">
+            <option value="select" selected>Select</option>
+            <option value="maths">Maths</option>
+            <option value="english">english</option>
+            <option value="phy">phy</option>
+            <option value="chem">chem</option>
+        </select>
+
+        <label for="mentors">Mentors:</label>
+        <select id="mentors">
+            <option value="select" selected>Select</option>
+            <option value="shalin">Shalin</option>
+            <option value="saurabh">Saurabh</option>
+            <option value="rusheel">Rusheel</option>
+            <option value="devarsh">Devarsh/option>
+        </select>
+
+        <label for="title" id="title">Title:</label>
+        <input type="text" name="title" placeholder="topic of a question.." id="title">
+
+        <label for="question" id="question">Question:</label>
+        <!--<input type="textarea" name="question" placeholder="question" id="quest">-->
+        <textarea id="question" rows="4" cols="50" placeholder="ask your question here.."></textarea>
+
+
+        <button type="button">submit</button>
+
+    </div>
+
+</body>
+
+</html>
