@@ -1,5 +1,5 @@
 * {
-    font-family: 'Open Sans';
+  font-family: 'Open Sans';
 }
 
 body {
@@ -39,14 +39,14 @@ body {
 
 /* Set a style for all buttons */
 #addQues {
-    background-color: #1c87c9;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    border-radius: 10px;
+  background-color: #1c87c9;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
 }
 
 
@@ -83,13 +83,14 @@ body {
 /* Style the tab content */
 .tabcontent {
   display: none;
-  padding: 6px 8  px;
+  padding: 6px 8 px;
   border: 1px solid #ccc;
   border-top: none;
 
 }
 
-#questions, #meetings{
+#questions,
+#meetings {
   width: 50%;
   /*float: left;*/
   display: inline;
@@ -97,6 +98,6 @@ body {
 
 /* Add padding to containers */
 .container {
-    padding: 16px;
-    border: 3px solid #f1f1f1;
+  padding: 16px;
+  border: 3px solid #f1f1f1;
 }

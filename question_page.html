@@ -2,42 +2,46 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-    <link rel="stylesheet" href="CSS/dash.css">
-    <title>Question</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-firestore.js"></script>
+  <link rel="stylesheet" href="CSS/question_page.css">
+  <title>Question</title>
 </head>
 
 <body>
-    <div class="container">
-        <label for="subject"><b>Choose Subject : </b></label>
-          <select id="slct1" name="slct1" required="required" onchange="select_mentor(this.id,'slct2')">
-            <option value="select">Select</option>
-            <option value="Maths">Maths</option>
-            <option value="Science">Science</option>
-            <option value="English">English</option>
-          </select>
-            
-          <br><br>
+  <div class="container">
+    <label for="subject"><b>Choose Subject : </b></label>
+    <select id="slct1" name="slct1" required="required" onchange="select_mentor(this.id,'slct2')">
+      <option value="select">Select</option>
+      <option value="Maths">Maths</option>
+      <option value="Science">Science</option>
+      <option value="English">English</option>
+    </select>
 
-          <label for="mentor"><b>Choose Mentor : </b></label>
-          <select id="slct2" name="slct2">
-            <option value="select">Select</option>
-          </select><br><br>
+    <br><br>
 
-        <label for="title" id="title">Title:</label>
-        <input type="text" name="title" placeholder="topic of a question.." id="title">
+    <label for="mentor"><b>Choose Mentor : </b></label>
+    <select id="slct2" name="slct2">
+      <option value="select">Select</option>
+    </select><br><br>
 
-        <label for="question" id="question">Question:</label>
-        <!--<input type="textarea" name="question" placeholder="question" id="quest">-->
-        <textarea id="question" rows="4" cols="50" placeholder="ask your question here.."></textarea>
+    <label for="title" id="title">Title:</label>
+    <input type="text" name="title" placeholder="topic of a question.." id="title">
+
+    <label for="question" id="question">Question:</label>
+    <!--<input type="textarea" name="question" placeholder="question" id="quest">-->
+    <textarea id="question" rows="4" cols="50" placeholder="ask your question here.."></textarea>
 
 
-        <button type="button">submit</button>
-        <script type="text/javascript" src="JS/dash.js"></script>
-    </div>
+    <button type="button" id="submit">Submit</button>
+  </div>
 
 </body>
+<script type="text/javascript" src="JS/dash.js"></script>
+<script type="text/javascript" src="JS/question_page_db.js"></script>
 
 </html>
