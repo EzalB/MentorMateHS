@@ -1,5 +1,5 @@
 * {
-    font-family: 'Open Sans';
+  font-family: 'Open Sans';
 }
 
 body {
@@ -46,14 +46,11 @@ h2{
 
 /* Set a style for all buttons */
 #addQues {
-    background-color: #1c87c9;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    border-radius: 10px;
+
+  padding: 16px 20px;
+  margin: 0px 0px;
+  border: none;
+  border-radius: 10px;
 }
 
 
@@ -79,7 +76,7 @@ h2{
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: skyblue;
 }
 
 /* Create an active/current tablink class */
@@ -90,13 +87,13 @@ h2{
 /* Style the tab content */
 .tabcontent {
   display: none;
-  padding: 6px 8  px;
+  padding: 6px 8 px;
   border: 1px solid #ccc;
   border-top: none;
 
 }
 
-#questions, #meetings{
+#questions, #meetings {
   width: 50%;
   /*float: left;*/
   display: inline;
@@ -124,4 +121,6 @@ h2{
 
 #highlight{
   font-size: 20px;
+  padding: 16px;
+  border: 3px solid #f1f1f1;
 }
