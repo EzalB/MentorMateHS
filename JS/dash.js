@@ -25,3 +25,15 @@ function select_mentor(s1,s2){ // add names to mentors in selection list dynamic
  document.getElementById("addQues").onclick = function () {
         location.href = "question_page.html";
     };
+
+    function openTab(TabName) {
+
+        if (TabName == 'Questions') {
+             location.href = "dashq.html";
+        }
+        if (TabName == 'Meetings'){
+            location.href = "meeting_page.html";
+
+        }
+
+    }
