@@ -21,3 +21,7 @@ function select_mentor(s1,s2){ // add names to mentors in selection list dynamic
         s2.options.add(newOption);
     }
 }
+
+ document.getElementById("addQues").onclick = function () {
+        location.href = "question_page.html";
+    };

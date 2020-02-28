@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="CSS/dash.css">
+    <title>Question</title>
 <link rel="stylesheet" type="text/css" href="CSS/dash.css">
 </head>
 <body>
 
+<div class="tab">
+    <button class="tablink" id="questions">Questions</button>
+    <button class="tablink" id="meetings">Meetings</button>
+  </div>
 
-<div class = "ques">
+<div class = "container">
   <h2>Question</h2>
   <div id="ans"></div>
   <div id="unans"></div>
-  <button id="addQ" onclick="addques()">+</button>
+  <button type="button" id="addQues">Add Question</button>
 </div>
 
-
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<!--span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span-->
 <script type="text/javascript" src="JS/dash.js"></script>  
 </body>
 </html> 
