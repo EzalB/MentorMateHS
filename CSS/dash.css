@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 * {
-  font-family: 'Open Sans';
+    font-family: 'Open Sans';
 }
 
 ||||||| e4fea9a... Styling of dashq
@@ -65,14 +65,14 @@ textarea {
 /* Set a style for all buttons */
 <<<<<<< HEAD
 #addQues {
-  background-color: #1c87c9;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  border-radius: 10px;
+    background-color: #1c87c9;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
 }
 
 
@@ -184,7 +184,7 @@ textarea {
 /* Style the tab content */
 .tabcontent {
   display: none;
-  padding: 6px 8 px;
+  padding: 6px 8  px;
   border: 1px solid #ccc;
   border-top: none;
 
@@ -213,6 +213,7 @@ button {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #questions,
 #meetings {
 ||||||| e4fea9a... Styling of dashq
@@ -225,6 +226,12 @@ button {
 =======
 .questions,.meetings{
 >>>>>>> parent of e4fea9a... Styling of dashq
+||||||| merged common ancestors
+#questions,
+#meetings {
+=======
+#questions, #meetings{
+>>>>>>> 9fc4fb1d5dc0794867afdb5665e6ea134ba676de
   width: 50%;
   float: left;
   display: inline;
@@ -232,6 +239,7 @@ button {
 
 /* Add padding to containers */
 .container {
+<<<<<<< HEAD
     padding: 16px;
     border: 3px solid #f1f1f1;
 }
@@ -269,3 +277,24 @@ button {
 
 
  
+||||||| merged common ancestors
+  padding: 16px;
+  border: 3px solid #f1f1f1;
+}
+=======
+    padding: 16px;
+    border: 3px solid #f1f1f1;
+    margin-bottom: 72px;
+}
+
+#add_btn{
+  bottom: 0px;
+  right: 5%;
+  position: fixed;
+  width: 90%;
+}
+
+#highlight{
+  font-size: 20px;
+}
+>>>>>>> 9fc4fb1d5dc0794867afdb5665e6ea134ba676de
