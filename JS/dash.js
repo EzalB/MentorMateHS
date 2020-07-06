@@ -23,7 +23,16 @@ function select_mentor(s1, s2) { // add names to mentors in selection list dynam
 document.getElementById("addQues").onclick = function () {
     window.open("question_page.html","_top");
 };
+/*
+document.getElementById("addMeet").onclick = function () {
+    window.open("meeting_page.html","_top");
+};
+*/
+const meetBtn = document.querySelector("#addMeet");
 
+meetBtn.addEventListeners("click", function(){
+    window.location.replace("meeting_page.html");
+})
 
 function openTab(TabName) {
 

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 * {
   font-family: 'Open Sans';
 }
@@ -10,10 +11,18 @@
 
 =======
 >>>>>>> parent of e4fea9a... Styling of dashq
+||||||| e4fea9a... Styling of dashq
+* {
+    font-family: 'Open Sans';
+}
+
+=======
+>>>>>>> parent of e4fea9a... Styling of dashq
 body {
   font-family: "Lato", sans-serif;
 }
 
+<<<<<<< HEAD
 
 .ques
 {
@@ -94,30 +103,84 @@ button {
     width: 100%;
 >>>>>>> parent of e4fea9a... Styling of dashq
 }
+||||||| e4fea9a... Styling of dashq
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 0px none #ccc;
+  background-color: #ddd;
+}
+=======
+>>>>>>> parent of e4fea9a... Styling of dashq
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* Style the buttons inside the tab */
 .tab button {
   background-color: inherit;
+||||||| e4fea9a... Styling of dashq
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+=======
+.ques
+{
+  position: absolute;
+
+>>>>>>> parent of e4fea9a... Styling of dashq
   float: left;
+<<<<<<< HEAD
   border: none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 17px;
+||||||| e4fea9a... Styling of dashq
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 10px;
+=======
+  top : 0%;
+  left : 0%;
+>>>>>>> parent of e4fea9a... Styling of dashq
 }
 
+<<<<<<< HEAD
 /* Change background color of buttons on hover */
 .tab button:hover {
   background-color: #ddd;
+||||||| e4fea9a... Styling of dashq
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: skyblue;
+=======
+* {
+    font-family: 'Open Sans';
 }
 
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #ccc;
+label {
+    display: block;
+>>>>>>> parent of e4fea9a... Styling of dashq
 }
 
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+<<<<<<< HEAD
 /* Style the tab content */
 .tabcontent {
   display: none;
@@ -125,10 +188,38 @@ button {
   border: 1px solid #ccc;
   border-top: none;
 
+||||||| e4fea9a... Styling of dashq
+/* Set a style for all buttons */
+#addQues {
+    background-color: #1c87c9;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+=======
+/* Set a style for all buttons */
+button {
+    background-color: #1c87c9;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+>>>>>>> parent of e4fea9a... Styling of dashq
 }
 
+<<<<<<< HEAD
 #questions,
 #meetings {
+||||||| e4fea9a... Styling of dashq
+#questions, #meetings{
+=======
+.questions,.meetings{
+>>>>>>> parent of e4fea9a... Styling of dashq
 ||||||| e4fea9a... Styling of dashq
 #questions, #meetings{
 =======
